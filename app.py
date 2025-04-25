@@ -12,7 +12,7 @@ os.environ["PYTHONWARNINGS"] = "ignore::RuntimeWarning"
 # Remove the problematic line: st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # 🔐 API Key
-api_key ="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" # Replace with your OpenRouter API key
+api_key ="" # Replace with your OpenRouter API key
 
 # 📋 Function to load embedding model (wrapped with error handling)
 @st.cache_resource
